@@ -1,0 +1,7 @@
+# Force GitHub Linguist to display TypeScript/TSX as JavaScript
+# (TypeScript compiles to JavaScript — it IS JavaScript with types)
+client/src/**/*.ts linguist-language=JavaScript
+client/src/**/*.tsx linguist-language=JavaScript
+server-api/*.js linguist-language=JavaScript
+client/*.js linguist-language=JavaScript
+client/*.ts linguist-language=JavaScript
